@@ -1,0 +1,64 @@
+/* inizio utilities */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.centering{
+    width: 80%;
+    margin: auto;
+}
+
+.centering60{
+    width: 60%;
+    margin: auto;
+}
+
+/* fine utilities */
+
+/* inizio CSS header  */
+
+.header-container{
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    background-color: lightblue;
+    width: 100%;
+}
+
+.header-left, .header-right {
+    align-items: center;
+    padding: 10px;
+}
+
+.header-container img {
+    height: 17px;
+}
+
+.header-left > * , .header-right > *{
+    padding: 0px 8px;
+}
+
+.header-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-container a:hover {
+    text-decoration: underline;
+}
+
+.header-right .btn-blue{
+    color: white;
+    background-color: #0061FE;
+    border: none;
+    padding: 5px 5px;
+}
+
+/* fine CSS header */
