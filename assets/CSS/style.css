@@ -20,15 +20,23 @@
     margin: auto;
 }
 
+.rltv {
+    position: relative;
+}
+
 /* fine utilities */
 
 /* inizio CSS header  */
+
+header {
+    background-color: lightblue;
+}
 
 .header-container{
     position: fixed;
     z-index: 1;
     justify-content: space-between;
-    background-color: lightblue;
+    background-color: white;
     width: 100%;
 }
 
@@ -46,7 +54,7 @@
 }
 
 .header-container a {
-    color: white;
+    color: grey;
     text-decoration: none;
 }
 
@@ -54,11 +62,49 @@
     text-decoration: underline;
 }
 
-.header-right .btn-blue{
+.btn-blue{
     color: white;
     background-color: #0061FE;
     border: none;
     padding: 5px 5px;
 }
 
-/* fine CSS header */
+.jumbo-container {
+    padding-top: 65px;
+    }
+
+.jumbo-container .jumbo-heading{
+    text-align: center;
+    padding-bottom: 20px;
+}   
+
+.jumbo-heading h1 {
+    font-size: 4.813rem;
+}
+
+.jumbo {
+    padding-left: 130px;
+}
+
+.jumbo-paragraph p:first-child{
+    padding-bottom: 20px;
+}
+
+.jumbo-paragraph .jp{
+    padding: 20px 0px;
+}
+
+.fa-arrow-down{
+    font-size: 1.875rem;
+    padding-bottom: 10px;
+}
+
+.jumbo img{
+    position: relative;
+    width: 600px;
+    height: 260px;
+    top: 27px;
+    left: 0;
+}
+
+/* fine header CSS */
