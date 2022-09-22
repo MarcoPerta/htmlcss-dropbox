@@ -131,7 +131,7 @@ header {
     width: 30%;
 }
 
-.single {
+.cntr-brdr-gry {
     text-align: center;
     border-bottom: 1px solid gray;
 }
@@ -183,3 +183,50 @@ header {
 
 /* fine 3 colonne */
 
+/* riquadro sotto le tre colonne */
+
+.tab-team{
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.p-tab-team {
+    color: grey;
+    padding-top: 30px;
+}
+
+.btn-tab-team {
+    top: -103px;
+    right: -638px;
+}
+
+/* fine riquadro sotto le colonne */
+
+/* inizio img partner con scritte difianco */
+
+.partner img {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+.btn-white{
+    color: gray;
+    background-color: white;
+    border:1px solid gray;
+    padding: 5px 5px;
+}
+
+.partner-left{
+    padding-left: 520px;
+    padding-top: 30px;
+}
+
+.btn-white {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+/* fine img partner con scritte difianco */
