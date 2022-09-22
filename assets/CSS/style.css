@@ -108,3 +108,78 @@ header {
 }
 
 /* fine header CSS */
+
+.main-container {
+    margin-top: 50px;
+}
+
+#checkbox1, #checkbox2 {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+/* 3 colonne */
+
+.col-container {
+    justify-content: space-between;
+}
+
+.col1, .col2, .col3 {
+    border: 1px solid gray;
+    width: 30%;
+}
+
+.single {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.pd-left{
+    padding-left: 15px;
+}
+
+.hr,  .col-btn {
+    margin-left: 15px;
+}
+
+.pd-top{
+    padding-top: 10px;
+}
+
+.pd-bot {
+    padding-bottom: 10px;
+}
+
+.pd-bot25{
+    padding-bottom: 25px;
+}
+
+.col-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.text7, .text8 {
+    margin:20px 0px;
+    display: inline-block;
+}
+
+.hr{
+    width: 15%;
+    background-color: grey;
+    height: 1px;
+}
+
+.text11{
+    padding-bottom: 150px;
+}
+
+/* fine 3 colonne */
+
