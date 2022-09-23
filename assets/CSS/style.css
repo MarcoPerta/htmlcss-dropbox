@@ -264,3 +264,71 @@ header {
     padding-bottom: 40px;
     display: block;
 }
+
+/* fine css container img funzioni *
+/* inizio box colorati CSS */
+
+.container-design {
+   justify-content: space-between;
+}
+
+.col-design{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    flex-wrap: wrap;
+}
+
+.icons{
+    flex-basis: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
+    width: 40%;
+}
+
+/* inizio colori per i box */
+
+.green{
+    background-color:lightgreen ;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.blue{
+    background-color: blue ;
+}
+
+.red{
+    background-color: red ; 
+}
+
+.azure{
+    background-color: azure; 
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/* fine colori per i box */
+
+.center{
+    padding: 20px;
+}
+
+.col-logo {
+    border-bottom: 1px solid gray;
+}
+
+.center img{
+    width: 40%;
+}
+
+.p-col-design{
+    padding: 20px 0px;
+}
