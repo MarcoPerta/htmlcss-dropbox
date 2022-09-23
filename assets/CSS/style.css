@@ -217,6 +217,9 @@ header {
     background-color: white;
     border:1px solid gray;
     padding: 5px 5px;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 190px
 }
 
 .partner-left{
@@ -224,11 +227,7 @@ header {
     padding-top: 30px;
 }
 
-.btn-white {
-    margin-left: 35px;
-    margin-top: 20px;
-    margin-bottom: 190px
-}
+
 /* fine da rivedere */
 /* fine img partner con scritte difianco */
 
@@ -332,3 +331,40 @@ header {
 .p-col-design{
     padding: 20px 0px;
 }
+
+/* fine box colorati CSS */
+/* inizio domande frequenti CSS */
+
+.text-button{
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 65px 270px;
+}
+
+.btn-noborder-white{
+    display: inline-block;
+    height: 32px;
+    padding: 0px 40px;
+    border: none;
+}
+
+.ask-div1, .ask-div {
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ask-div1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.ask-div{
+  padding: 20px 1px;
+}
+
+.fa-chevron-down{
+    font-size: 0.875rem;
+}
+
+/* fine domande frequenti CSS */
