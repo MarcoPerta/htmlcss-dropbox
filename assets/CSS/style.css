@@ -348,6 +348,12 @@ header {
     border: none;
 }
 
+/* inizio domande frequenti CSS */
+
+.ask{
+    margin-bottom: 50px;
+}
+
 .ask-div1, .ask-div {
     border-bottom: 1px solid gray;
     justify-content: space-between;
@@ -368,3 +374,27 @@ header {
 }
 
 /* fine domande frequenti CSS */
+/* inizio footer CSS */
+
+footer{
+    background-color: #000000;
+}
+
+.container-footer{
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.foot-li ul{
+    list-style-type: none;
+    color: white;
+}
+
+.foot-li li {
+    padding: 5px 0px;
+}
+
+.foot-li h4 {
+    color: white;
+    padding: 10px 0px;
+}
