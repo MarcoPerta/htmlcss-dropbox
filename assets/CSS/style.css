@@ -205,7 +205,7 @@ header {
 /* fine riquadro sotto le colonne */
 
 /* inizio img partner con scritte difianco */
-
+/* da rivedere */
 .partner img {
     height: 100%;
     width: 60%;
@@ -227,6 +227,40 @@ header {
 .btn-white {
     margin-left: 35px;
     margin-top: 20px;
+    margin-bottom: 190px
+}
+/* fine da rivedere */
+/* fine img partner con scritte difianco */
+
+/* inizio css container img funzioni */
+
+.h3-dropbox {
+    padding: 20px 0px;
 }
 
-/* fine img partner con scritte difianco */
+.function-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-function {
+    width: calc(100%/3);
+}
+
+.function-container img {
+    width: 100%;
+}
+
+.h4-function {
+    padding: 20px 0px;
+}
+
+.h2-function {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.a-function {
+    padding-bottom: 40px;
+    display: block;
+}
