@@ -113,6 +113,10 @@ header {
     left: 0;
 }
 
+.jumbo-paragraph{
+    padding-top: 24px;
+}
+
 /* fine header CSS */
 
 .main-container {
