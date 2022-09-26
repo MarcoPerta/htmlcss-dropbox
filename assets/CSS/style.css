@@ -30,6 +30,18 @@
     content: "";
 }
 
+.spc-btwn{
+    justify-content: space-between;
+}
+
+.brdr-bttm-gry{
+    border-bottom: 1px solid gray;
+}
+
+.nln-blck{
+    display: inline-block;
+}
+
 /* fine utilities */
 
 /* inizio CSS header  */
@@ -41,7 +53,6 @@ header {
 .header-container{
     position: fixed;
     z-index: 1;
-    justify-content: space-between;
     background-color: white;
     width: 100%;
 }
@@ -127,14 +138,9 @@ header {
     padding-top: 30px;
     padding-right: 20px;
     padding-bottom: 20px;
-    display: inline-block;
 }
 
 /* 3 colonne */
-
-.col-container {
-    justify-content: space-between;
-}
 
 .col1, .col2, .col3 {
     border: 1px solid gray;
@@ -156,7 +162,6 @@ header {
 
 .cntr-brdr-gry {
     text-align: center;
-    border-bottom: 1px solid gray;
 }
 
 .pd-left{
@@ -192,7 +197,6 @@ header {
 
 .text7, .text8 {
     margin:20px 0px;
-    display: inline-block;
 }
 
 .hr{
@@ -259,7 +263,6 @@ header {
 
 .function-container {
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .img-function {
@@ -287,18 +290,10 @@ header {
 /* fine css container img funzioni *
 /* inizio box colorati CSS */
 
-.container-design {
-   justify-content: space-between;
-}
-
 .col-design{
     width: calc(100%/3);
     height: calc(100vw/3);
     flex-wrap: wrap;
-}
-
-.overflow{
-overflow: scroll;
 }
 
 .icons{
@@ -315,10 +310,6 @@ overflow: scroll;
 
 .center{
     padding: 20px;
-}
-
-.col-logo {
-    border-bottom: 1px solid gray;
 }
 
 .center img{
@@ -366,12 +357,10 @@ overflow: scroll;
 
 .text-button{
     background-color: lightblue;
-    justify-content: space-between;
     padding: 65px 270px;
 }
 
 .btn-noborder-white{
-    display: inline-block;
     height: 32px;
     padding: 0px 40px;
     border: none;
@@ -392,8 +381,6 @@ overflow: scroll;
 }
 
 .ask-div1, .ask-div {
-    border-bottom: 1px solid gray;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -419,10 +406,7 @@ footer{
 }
 
 .container-footer{
-    justify-content: space-between;
     padding-top: 25px;
-    border-bottom: 1px solid gray;
-    
 }
 
 .foot-li ul{
