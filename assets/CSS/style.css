@@ -24,6 +24,12 @@
     position: relative;
 }
 
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
 /* fine utilities */
 
 /* inizio CSS header  */
@@ -131,13 +137,27 @@ header {
     width: 30%;
 }
 
+.pad-col{
+    padding-left: 15px;
+}
+
+.fa-user, .fa-users, .fa-building, .fa-folder, .fa-code, .fa-check{
+    font-size: 0.813rem;
+    padding-right: 5px;
+}
+
+.fa-check{
+    color: green;
+}
+
 .cntr-brdr-gry {
     text-align: center;
     border-bottom: 1px solid gray;
 }
 
 .pd-left{
-    padding-left: 15px;
+    text-indent: -10px;
+    padding-left: 1.2em;
 }
 
 .hr,  .col-btn {
@@ -175,10 +195,6 @@ header {
     width: 15%;
     background-color: grey;
     height: 1px;
-}
-
-.text11{
-    padding-bottom: 150px;
 }
 
 /* fine 3 colonne */
@@ -277,6 +293,10 @@ header {
     flex-wrap: wrap;
 }
 
+.overflow{
+overflow: scroll;
+}
+
 .icons{
     flex-basis: 50%;
     height: 50%;
@@ -286,6 +306,27 @@ header {
 
 .icons img{
     width: 40%;
+    filter: invert(100%);
+}
+
+.center{
+    padding: 20px;
+}
+
+.col-logo {
+    border-bottom: 1px solid gray;
+}
+
+.center img{
+    width: 40%;
+}
+
+#overflow{
+    overflow: auto;
+}
+
+.p-col-design{
+    padding: 20px 0px;
 }
 
 /* inizio colori per i box */
@@ -307,7 +348,7 @@ header {
 }
 
 .azure{
-    background-color: azure; 
+    background-color: #ADD8E6; 
 }
 
 .yellow{
@@ -315,24 +356,8 @@ header {
 }
 
 /* fine colori per i box */
-
-.center{
-    padding: 20px;
-}
-
-.col-logo {
-    border-bottom: 1px solid gray;
-}
-
-.center img{
-    width: 40%;
-}
-
-.p-col-design{
-    padding: 20px 0px;
-}
-
 /* fine box colorati CSS */
+
 /* inizio domande frequenti CSS */
 
 .text-button{
@@ -348,6 +373,14 @@ header {
     border: none;
 }
 
+.answer{
+    display: none;
+}
+
+.fa-chevron-down:hover + .answer {
+    display: block;
+  }
+
 /* inizio domande frequenti CSS */
 
 .ask{
@@ -358,6 +391,7 @@ header {
     border-bottom: 1px solid gray;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .ask-div1{
@@ -383,6 +417,8 @@ footer{
 .container-footer{
     justify-content: space-between;
     padding-top: 25px;
+    border-bottom: 1px solid gray;
+    
 }
 
 .foot-li ul{
@@ -397,4 +433,18 @@ footer{
 .foot-li h4 {
     color: white;
     padding: 10px 0px;
+}
+
+.foot-span{
+  color: white;
+}
+
+.fa-earth-europe{
+    font-size: 0.813rem;
+    padding-right: 5px;
+}
+
+.fa-caret-up{
+    font-size: 0.813rem;
+    padding-left: 3px;
 }
